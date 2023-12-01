@@ -1,16 +1,16 @@
 .header-body {
-  
+  margin-top: 10px;
   justify-content: center;
   display: flex;
 }
 
 .header-list {
-  border: 7px solid #ffffff !important;
+  border: 7px solid #0B2447 !important;
   display: flex;
   justify-content: space-around;
   border-radius: 1rem;
-  width: 300px;
-  padding: 1.5rem 1rem;
+  width: 300px;  
+  padding: 1rem 1rem;
   background-color: #ffffff23;
 }
 
