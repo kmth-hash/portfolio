@@ -10,7 +10,7 @@ function MainPageFirst() {
       // console.log(x+"%");
       return x + "%";
     });
-    console.log(ls);
+    // console.log(ls);
     return ls;
   };
   return (
@@ -39,11 +39,26 @@ function MainPageFirst() {
         />
         <h2 className="">Software Developer </h2>
         <p>
-          I'm a Full Stack Developer and Data Engineer who loves building stuff.
+          I'm a <b>Full Stack Developer</b> and <b>
+            Data Engineer</b> who loves building stuff.
           I spend most of my time building projects, fixing bugs and trying not
-          to crash that server.
+          to crash the server while at it.
         </p>
-        <br />
+        <p>
+          I'm bit of a digital junky. I have worked on a number of projects and 
+          I'm learning new tools regularly. Feel free to <b><a href="/contact-me">Contact me</a></b>.
+        </p>
+        {/* <br />
+        <div className="btn btn-custom-blue d-flex flex-row col-4 col-md-4 text-center">
+          <h5>Ping Me </h5>{" "}
+          <motion.div
+            className=" d-none d-sm-block"
+            animate={{ x: 5 }}
+            transition={{ repeat: "infinity", duration: 1 }}
+          >
+            <FaLongArrowAltRight />
+          </motion.div>
+        </div> */}
       </div>
       <div className="col-md-5 mt-3 d-flex align-items-center justify-content-center">
         <motion.div
@@ -67,7 +82,7 @@ function MainPageFirst() {
         </motion.div>
       </div>
       <div className="col-md-6 mt-3">
-        <div className="btn btn-custom-blue d-flex flex-row col-4 col-md-4 text-center">
+        {/* <div className="btn btn-custom-blue d-flex flex-row col-4 col-md-4 text-center">
           <h5>Resume </h5>{" "}
           <motion.div
             className=" d-none d-sm-block"
@@ -76,10 +91,10 @@ function MainPageFirst() {
           >
             <FaLongArrowAltRight />
           </motion.div>
-        </div>
+        </div> */}
       </div>
       <div className="col-md-6 mt-3">
-        <div className="btn btn-dark d-flex flex-row col-4 col-md-4 text-center">
+        {/* <div className="btn btn-dark d-flex flex-row col-4 col-md-4 text-center">
           <h5>Random </h5>{" "}
           <motion.div
             className=" d-none d-sm-block"
@@ -88,7 +103,7 @@ function MainPageFirst() {
           >
             <FaLongArrowAltRight />
           </motion.div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

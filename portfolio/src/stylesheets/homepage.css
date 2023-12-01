@@ -1,7 +1,7 @@
 .typewritercss {
   font-size: 3rem;
   font-weight: 500;
-  color: #1F6E8C !important;
+  color: #1f6e8c !important;
 }
 
 .progress-bar {
@@ -10,35 +10,51 @@
   left: 0;
   right: 0;
   height: 7px;
-  background: #1F6E8C;
+  background: #1f6e8c;
   transform-origin: 0%;
 }
 
 .bg-box {
   width: 20rem;
   height: 20rem;
-  background: rgba(245, 232, 199, 1);
+  background: #f5e8c7;
 }
 
 .homepage-body {
-  
-
 }
 
-
-.font-weight-900{
+.font-weight-900 {
   font-weight: 900;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 }
 
-.homepage{
+.homepage {
   background-color: #ffffff;
   color: rgb(0, 0, 0) !important;
   padding: 1rem 0;
-  margin:0.5rem 0;
+  margin: 0.5rem 0;
 }
 
-.btn-custom-blue{
-  background-color: #1F6E8C !important;
-  color: #FFFFFF !important;
+.btn-custom-blue {
+  background-color: #1f6e8c !important;
+  color: #ffffff !important;
+}
+
+.home-bar {
+  height: 3vh;
+  background-color: #f5e8c7;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.skills-main {
+  font-family: "Figtree", sans-serif;
+}
+.skillheader {
+  font-family: "Figtree", sans-serif;
 }
