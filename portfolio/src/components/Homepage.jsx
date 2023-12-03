@@ -3,6 +3,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import MainPageFirst from "./MainPageFirst";
 import Header from "./Header";
 import MainPageSecond from "./MainPageSecond";
+import MidBar from "./MidBar";
 function Homepage() {
 
   const { scrollYProgress } = useScroll();
@@ -23,33 +24,9 @@ function Homepage() {
         <div className="homepage-body container-md ">
           <MainPageFirst />
           
-          <motion.div className="" animate={{
-            scaleX : 0.95 ,
-                      
-          }}
-          transition={{
-            duration : 10 , 
-            ease : "easeInOut" , 
-            repeat : "infinity"
-          }}
-          
-          >
-          <div className="home-bar text-white"></div>
-          </motion.div>
+          <MidBar />
           <MainPageSecond />
-          <motion.div className="" animate={{
-            scaleX : 0.95 ,
-                      
-          }}
-          transition={{
-            duration : 10 , 
-            ease : "easeInOut" , 
-            repeat : "infinity"
-          }}
-          
-          >
-          <div className="home-bar text-white"></div>
-          </motion.div>
+          <MidBar />
           
         </div>
       </div>

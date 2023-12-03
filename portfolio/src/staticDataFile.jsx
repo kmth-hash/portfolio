@@ -116,6 +116,13 @@ export const textcolorPalette = [
   "#FFFFFF" ,
   "#000000" ,
 
+];
+
+export const colorPalette2 = [
+  "#0F0F0F" , 
+  "#AED2FF",
+  "#005B41",
+  "#6499E9"
 ]
 
 export const skills = skillList;

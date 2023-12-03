@@ -1,5 +1,5 @@
 import "../stylesheets/homepage.css";
-import { skills, tools , colorPalette, textcolorPalette } from "../staticDataFile";
+import { skills, tools , colorPalette, textcolorPalette , colorPalette2 } from "../staticDataFile";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -28,18 +28,18 @@ function MainPageSecond() {
             </p>
           </div>
           <div className="col-md-8 p-2 ">
-            <h5><b>Languages</b></h5>
+            <h4><b>Languages</b></h4>
             
             <div className="skill-grid d-flex flex-wrap gap-3">
               
               {skillState.map((skill, index) => {
                 return (
                   <motion.div key={index} 
-                  whileHover={{ scale: 1.1 }}
+                  whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   
                   >
-                    <div style={{backgroundColor : colorPalette[index%4], color : textcolorPalette[index%4]}} className="text-center fw-medium border border-2 border-dark p-2 rounded">
+                    <div style={{backgroundColor : colorPalette[index%4], color : textcolorPalette[index%4]}} className="text-center cust-btn-css fw-medium border border-2 border-dark-subtle p-2 rounded">
                     <i className={skill.tagLogo}></i>&nbsp;&nbsp;{skill.tagName} 
                     
                   </div>
@@ -48,7 +48,7 @@ function MainPageSecond() {
               })}
             </div>
             <br />
-            <h5><b>Tools</b></h5>
+            <h4><b>Tools</b></h4>
             <div className="skill-grid d-flex flex-wrap gap-3">
               
               {toolState.map((skill, index) => {
@@ -58,7 +58,7 @@ function MainPageSecond() {
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   
                   >
-                    <div style={{backgroundColor : colorPalette[index%4], color : textcolorPalette[index%4]}} className="text-center fw-medium border border-2 border-dark p-2 rounded">
+                    <div style={{backgroundColor : colorPalette[index%4], color : textcolorPalette[index%4]}} className="text-center shadow fw-medium border border-2 border-dark-subtle p-2 rounded">
                     <i className={skill.tagLogo}></i>&nbsp;&nbsp;{skill.tagName} 
                     
                   </div>

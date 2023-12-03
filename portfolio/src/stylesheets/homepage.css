@@ -60,5 +60,43 @@ a {
 }
 
 .skill-grid {
-  
+}
+
+.midbar {
+  margin: 5rem 0;
+}
+
+.cust-btn-css {
+  outline: 0px;
+  font-size: 1em;
+  font-weight: 600;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 20px 34px;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -6px 0px 0px inset,
+    #f5e8c7 1px 1px 0px 0px, #f5e8c7 2px 2px 0px 0px,
+    #f5e8c7 3px 3px 0px 0px, #f5e8c7 4px 4px 0px 0px,
+    #f5e8c7 5px 5px 0px 0px, #f5e8c7 6px 6px 0px 0px,
+    #f5e8c7 7px 7px 0px 0px, #f5e8c7 8px 8px 0px 0px;
+}
+
+.cust-btn-css:hover {
+  color: rgb(68, 68, 68);
+  background: rgb(255, 255, 255);
+}
+
+.cust-btn-css:active {
+  color: rgb(34, 34, 34);
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 0px 0px inset,
+    #f5e8c7 1px 1px 0px 0px, #f5e8c7 2px 2px 0px 0px,
+    #f5e8c7 3px 3px 0px 0px, #f5e8c7 4px 4px 0px 0px,
+    #f5e8c7 5px 5px 0px 0px;
+}
+
+.cust-btn-css:focus {
+  color: rgb(34, 34, 34);
 }
