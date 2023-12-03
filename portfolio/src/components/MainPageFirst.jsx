@@ -39,14 +39,14 @@ function MainPageFirst() {
         />
         <h2 className="">Software Developer </h2>
         <p>
-          I'm a <b>Full Stack Developer</b> and <b>
+          I&#39;m a <b>Full Stack Developer</b> and <b>
             Data Engineer</b> who loves building stuff.
           I spend most of my time building projects, fixing bugs and trying not
           to crash the server while at it.
         </p>
         <p>
-          I'm bit of a digital junky. I have worked on a number of projects and 
-          I'm learning new tools regularly. Feel free to <b><a href="/contact-me">Contact me</a></b>.
+          I&#39;m bit of a digital junky. I have worked on a number of projects and 
+          I&#39;m learning new tools regularly. Feel free to <b><a href="/contact-me">Contact me</a></b>.
         </p>
         {/* <br />
         <div className="btn btn-custom-blue d-flex flex-row col-4 col-md-4 text-center">

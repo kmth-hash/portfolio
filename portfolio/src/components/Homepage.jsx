@@ -37,6 +37,20 @@ function Homepage() {
           <div className="home-bar text-white"></div>
           </motion.div>
           <MainPageSecond />
+          <motion.div className="" animate={{
+            scaleX : 0.95 ,
+                      
+          }}
+          transition={{
+            duration : 10 , 
+            ease : "easeInOut" , 
+            repeat : "infinity"
+          }}
+          
+          >
+          <div className="home-bar text-white"></div>
+          </motion.div>
+          
         </div>
       </div>
     </>
