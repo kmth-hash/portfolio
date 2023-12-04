@@ -1,11 +1,11 @@
 import "../stylesheets/homepage.css";
-import { skills, tools , colorPalette, textcolorPalette , colorPalette2 } from "../staticDataFile";
-import { useState } from "react";
+import { skills as skillState , tools as toolState , colorPalette, textcolorPalette } from "../staticDataFile";
+// import { useState } from "react";
 import { motion } from "framer-motion";
 
 function MainPageSecond() {
-  const [skillState, setSkillState] = useState(skills);
-  const [toolState , setToolState] = useState(tools);
+  // const [skillState, setSkillState] = useState(skills);
+  // const [toolState , setToolState] = useState(tools);
   
 
   return (

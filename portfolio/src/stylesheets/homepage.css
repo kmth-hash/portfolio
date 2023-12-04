@@ -100,3 +100,11 @@ a {
 .cust-btn-css:focus {
   color: rgb(34, 34, 34);
 }
+
+.education-main{
+  font-family: "Figtree", sans-serif;
+}
+
+p {
+  text-align: justify;
+}

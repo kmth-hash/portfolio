@@ -4,17 +4,15 @@ import MainPageFirst from "./MainPageFirst";
 import Header from "./Header";
 import MainPageSecond from "./MainPageSecond";
 import MidBar from "./MidBar";
-function Homepage() {
+import MainPageThird from "./MainPageThird";
 
+function Homepage() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 33,
     restDelta: 0.001,
   });
-
-
-
 
   return (
     <>
@@ -23,11 +21,11 @@ function Homepage() {
         <motion.div className="progress-bar" style={{ scaleX }} />
         <div className="homepage-body container-md ">
           <MainPageFirst />
-          
+
           <MidBar />
           <MainPageSecond />
           <MidBar />
-          
+          <MainPageThird />
         </div>
       </div>
     </>
