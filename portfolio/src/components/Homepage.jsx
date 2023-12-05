@@ -5,6 +5,7 @@ import Header from "./Header";
 import MainPageSecond from "./MainPageSecond";
 import MidBar from "./MidBar";
 import MainPageThird from "./MainPageThird";
+import Footer from "./Footer";
 
 function Homepage() {
   const { scrollYProgress } = useScroll();
@@ -29,6 +30,7 @@ function Homepage() {
           <MainPageThird />
         </div>
       </div>
+      <Footer></Footer>
       </div>
     </>
   );

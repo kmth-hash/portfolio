@@ -1,8 +1,7 @@
-import React from "react";
 import Header from "./Header";
 import CertCard from "./CertCard";
 import  {certList} from '../staticDataFile.jsx';
-
+import Footer from "./Footer";
 import "../stylesheets/certifications.css";
 
 
@@ -22,6 +21,7 @@ function Certifications() {
           
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import Header from "./Header";
 import "../stylesheets/projects.css";
 import { projectData } from "../staticDataFile.jsx";
 import ProjectCard from "./ProjectCard";
-
+import Footer from "./Footer";
 
 function Projects() {
   return (
@@ -19,6 +19,7 @@ function Projects() {
           
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

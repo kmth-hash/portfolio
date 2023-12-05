@@ -60,6 +60,7 @@ a {
 }
 
 .skill-grid {
+  justify-content: flex-start !important;
 }
 
 .midbar {
@@ -107,4 +108,18 @@ a {
 
 p {
   text-align: justify;
+}
+
+.footer {
+  background: #1A1E25;
+  color: #868c96;
+}
+
+.footer p {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer img {
+  width: 44px;
 }
