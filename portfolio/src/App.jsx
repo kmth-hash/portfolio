@@ -1,9 +1,9 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Homepage from './components/Homepage.jsx';
-import Header from './components/Header.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import Projects from './components/Projects.jsx';
+import Certifications from './components/Certifications';
 
 function App() {
   let router = createBrowserRouter([{
@@ -16,6 +16,11 @@ function App() {
     element : <Projects/>, 
     errorElement : <ErrorPage/>
   }, 
+  {
+    path : "/certifications",
+    element : <Certifications />,
+    errorElement : <ErrorPage />
+  }
 ]);
   
   return (

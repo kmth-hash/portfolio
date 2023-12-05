@@ -1,6 +1,9 @@
 import "../stylesheets/homepage.css";
 // import { useState } from "react";
 import { GoDotFill } from "react-icons/go";
+import {Link} from 'react-router-dom';
+import { motion } from "framer-motion";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 
 function MainPageThird() {
   return (
@@ -23,7 +26,7 @@ function MainPageThird() {
               <p>
                 <b>CGPA : 8.4</b>
               </p>
-              <hr />
+              <br />
               <p className="mb-0">2015 - 2017</p>
               <h4 className="fw-medium">
                 <b>Pre-University College (+2)</b>
@@ -32,7 +35,7 @@ function MainPageThird() {
               <p>
                 <b>Percentage : 93.33%</b>
               </p>
-              <hr />
+              <br />
               <p className="mb-0">2014 - 2015</p>
               <h4 className="fw-medium">
                 <b>SSC Education</b>
@@ -77,6 +80,18 @@ function MainPageThird() {
                 Using Python packages implemented an image processing program to
                 extract fingerprint from an image.
               </p>
+              <br />
+              <Link to="certifications">
+              <motion.div
+              className="btn rounded border-3 border-dark-subtle"
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+                <div className=" p-1 ">
+                  <b>Cerifications</b>&nbsp;<FaArrowUpRightFromSquare/>
+                </div>
+                </motion.div>
+              </Link>
             </div>
 
             <div className="col-md-6 py-2 px-3">

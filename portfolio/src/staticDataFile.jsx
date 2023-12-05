@@ -129,13 +129,13 @@ export const projectData = [
   {
     pName : "Bill-It" , 
     Description : "Webpage to maintain business expenses and client details.",
-    skillList : ["PHP", "MySQL", "HTML", "CSS", "Bootstrap","Javascript","Firebase-Hosting"]
+    skillList : ["PHP", "MySQL", "HTML", "CSS", "Bootstrap","Javascript"]
 
   }, 
   {
     pName : "Split-it" , 
     Description : "Webpage to split personal expenses with buddies.",
-    skillList : ["React.js", "Javascript", "HTML", "Firebase", "Bootstrap","CI/CD","Heroku","RestAPI"]
+    skillList : ["React.js", "Javascript", "Firebase", "Bootstrap","CI/CD","Heroku","RestAPI"]
 
   },
   {
@@ -164,9 +164,69 @@ export const projectData = [
   {
     pName : "Grade-It" , 
     Description : "Python Django webpage tp scrape data and maintain local DB of university marks for staff use.",
-    skillList : ["Django", "PostgreSQL", "HTML", "CSS", "Python","Bootstrap","BeatifulSoup","RestAPI"]
+    skillList : ["Django", "PostgreSQL", "HTML","Python","BeatifulSoup","RestAPI"]
 
   },
-]
+];
+
+export const certList = [
+  {
+    cName : "Databricks Certified Associate Developer",
+    companyName : "Databricks",
+    credentialURL : "https://credentials.databricks.com/0f7ee283-8f40-47da-acc8-2239b9b1ce9b",
+    companyLogo : "./src/assets/databricks.svg",
+    skillList : ["Apache-Spark", "Bigdata","RDD","SQL"]
+  },
+  {
+    cName : "Learning Data Analytics: 1 Foundations",
+    companyName : "LinkedIn",
+    credentialURL : "https://www.linkedin.com/learning/certificates/e49727a747b6d434cd02b4e814ae6e23af9903d71d2342839d874265db428ff1?trk=backfilled_certificate",
+    companyLogo : "./src/assets/linkedin.svg",
+    skillList : ["Data Analytics", "Python","Numpy"]
+  },
+  {
+    cName : "Python (Basic)",
+    companyName : "HackerRank",
+    credentialURL : "https://www.hackerrank.com/certificates/0bb61222cffe",
+    companyLogo : "./src/assets/hackerrank.svg",
+    skillList : ["Python", "Algorithm"]
+  },
+  {
+    cName : "Problem Solving (Basic)",
+    companyName : "LinkedIn",
+    credentialURL : "https://www.hackerrank.com/certificates/9d66b38bb061",
+    companyLogo : "./src/assets/hackerrank.svg",
+    skillList : ["Python", "Algorithm"]
+  },
+  {
+    cName : "Java (Basic)",
+    companyName : "HackerRank",
+    credentialURL : "https://www.hackerrank.com/certificates/3964fe857353",
+    companyLogo : "./src/assets/hackerrank.svg",
+    skillList : ["Java", "Algorithm"]
+  },
+  {
+    cName : "SQL (Basic)",
+    companyName : "HackerRank",
+    credentialURL : "https://www.hackerrank.com/certificates/7d6d00cfd6e5",
+    companyLogo : "./src/assets/hackerrank.svg",
+    skillList : ["SQL", "Algorithm"]
+  },
+  {
+    cName : "CSS (Basic)",
+    companyName : "HackerRank",
+    credentialURL : "https://www.hackerrank.com/certificates/599cb10cfc70",
+    companyLogo : "./src/assets/hackerrank.svg",
+    skillList : ["CSS", "Algorithm"]
+  },
+  {
+    cName : "MTA: Introduction to JS",
+    companyName : "HackerRank",
+    credentialURL : "https://www.youracclaim.com/badges/6f5ec689-1b9b-4751-b5e4-43348277a49a/public_url",
+    companyLogo : "./src/assets/microsoft.svg",
+    skillList : ["Javascript", "HTML"]
+  }
+  
+];
 
 export const skills = skillList;

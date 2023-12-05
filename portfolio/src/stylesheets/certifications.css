@@ -1,0 +1,27 @@
+.cert-square {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+
+}
+
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.truncated {
+    display: block;
+    white-space: nowrap;      
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+@media (min-width: 250) and (max-width: 768px) {
+    .hidden-md{
+        display: none !important;
+    }
+  }

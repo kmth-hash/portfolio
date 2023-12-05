@@ -16,9 +16,7 @@ function Projects() {
               <ProjectCard project={project} key={index} />
             );
           })}
-          <div className="col-md-6"></div>
-          <div className="col-md-6"></div>
-          <div className="col-md-6"></div>
+          
         </div>
       </div>
     </div>

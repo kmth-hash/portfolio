@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa6";
 
 function MainPageFirst() {
   const getRandomPercent = (n) => {
@@ -81,7 +82,7 @@ function MainPageFirst() {
             className="btn btn-warning bg-white text-dark"
           >
             <h4>
-              <SiGmail />
+              <FaGithub />
             </h4>
           </motion.div>
         </div>

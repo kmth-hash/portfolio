@@ -16,6 +16,7 @@ function Homepage() {
 
   return (
     <>
+      <div className="container">
       <Header />
       <div className="homepage text-dark ">
         <motion.div className="progress-bar" style={{ scaleX }} />
@@ -27,6 +28,7 @@ function Homepage() {
           <MidBar />
           <MainPageThird />
         </div>
+      </div>
       </div>
     </>
   );

@@ -8,7 +8,7 @@ function MidBar() {
                   
       }}
       transition={{
-        duration : 10 , 
+        duration : 7 , 
         ease : "easeInOut" , 
         repeat : "infinity"
       }}
