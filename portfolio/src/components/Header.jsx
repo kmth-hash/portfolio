@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="header-body ">
       <div className="header-list">
-        <Link className="RRDLink" to="/">
+        <Link className="RRDLink" to="/" title="Home">
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -47,7 +47,7 @@ function Header() {
             </div>
           </motion.div>
         </Link>
-        <Link to="/projects" className="RRDLink">
+        <Link to="/projects" className="RRDLink" title="Projects">
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}

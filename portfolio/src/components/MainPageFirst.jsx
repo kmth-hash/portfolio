@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 
 function MainPageFirst() {
   const getRandomPercent = (n) => {
-    let ls = Array.apply(null, Array(5)).map((i) => {
+    let ls = Array.apply(null, Array(n)).map(() => {
       let x = Math.floor(Math.random() * 100 + 1);
       // console.log(x+"%");
       return x + "%";
@@ -16,7 +16,7 @@ function MainPageFirst() {
     return ls;
   };
   return (
-    <div className="h-75v row justify-content-between">
+    <div className="pt-3 row justify-content-between">
       <div className="col-md-7  container">
         <h4>Hi! I&#39;m </h4>
         <Typewriter
@@ -59,7 +59,7 @@ function MainPageFirst() {
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="btn btn-warning bg-white text-dark"
+            className="btn btn-warning bg-white text-dark hover-white-css"
           >
             <h4>
               <SiGmail />
@@ -69,7 +69,7 @@ function MainPageFirst() {
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="btn btn-warning bg-white text-dark"
+            className="btn btn-warning bg-white text-dark hover-white-css"
           >
             <h4>
               <FaLinkedinIn />
@@ -79,7 +79,7 @@ function MainPageFirst() {
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            className="btn btn-warning bg-white text-dark"
+            className="btn btn-warning bg-white text-dark hover-white-css"
           >
             <h4>
               <FaGithub />

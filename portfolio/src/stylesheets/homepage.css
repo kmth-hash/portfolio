@@ -123,3 +123,18 @@ p {
 .footer img {
   width: 44px;
 }
+
+.hover-white-css:hover, .hover-white-css:focus{
+  background-color: #f5e8c779 !important;
+  color: #1A1E25 !important;
+}
+
+
+.hover-black-css:hover, .hover-black-css:focus{
+  background-color: #1A1E25 !important;
+  color: #ffffff !important;
+}
+
+.h-75v{
+  height: 70vh !important;
+}

@@ -1,20 +1,29 @@
 import "../stylesheets/homepage.css";
-// import { useState } from "react";
+import { useRef } from "react";
 import { GoDotFill } from "react-icons/go";
-import {Link} from 'react-router-dom';
-import { motion } from "framer-motion";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6"
+import { Link } from "react-router-dom";
+import { motion, useInView } from "framer-motion";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 function MainPageThird() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <>
       <div className="row justify-content-between skills-main education-main">
         <div className="col-12 mt-3 container ml-4 pl-4"></div>
         <div className="col-12 mt-3 container">
-          <div className="row container">
-            <div className="col-md-6 py-2 px-3">
+          <div className="row container" ref={ref}>
+            <div className="col-md-6 py-2 px-3" >
               <h6>BIODATA</h6>
-              <h1 className="skillheader ">
+              <h1
+                className="skillheader "
+                style={{
+                  transform: isInView ? "none" : "translateX(-200px)",
+                  opacity: isInView ? 1 : 0,
+                  transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+                }}
+              >
                 <b>Education</b>
               </h1>
               <br />
@@ -46,9 +55,18 @@ function MainPageThird() {
               </p>
             </div>
 
-            <div className="col-md-6 py-2 px-3">
-              <h6><br /></h6>
-              <h1 className="skillheader ">
+            <div className="col-md-6 py-2 px-3" ref={ref}>
+              <h6>
+                <br />
+              </h6>
+              <h1
+                className="skillheader "
+                style={{
+                  transform: isInView ? "none" : "translateX(-200px)",
+                  opacity: isInView ? 1 : 0,
+                  transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+                }}
+              >
                 <b>Internship</b>
               </h1>
               <br />
@@ -67,8 +85,9 @@ function MainPageThird() {
                 <b>Software Development Intern</b>
               </h4>
               <p className="mb-0">
-                Built a webpage to generate bills for an organization to reduce expenses.
-                Generate, update and print bills. Maintain user details and more.
+                Built a webpage to generate bills for an organization to reduce
+                expenses. Generate, update and print bills. Maintain user
+                details and more.
               </p>
 
               <br />
@@ -82,22 +101,30 @@ function MainPageThird() {
               </p>
               <br />
               <Link to="certifications">
-              <motion.div
-              className="btn rounded border-3 border-dark-subtle"
-              whileHover={{ scale: 1.1 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            >
-                <div className=" p-1 ">
-                  <b>Cerifications</b>&nbsp;<FaArrowUpRightFromSquare/>
-                </div>
+                <motion.div
+                  className="hover-black-css btn rounded border-3 border-dark-subtle"
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <div className=" p-1 ">
+                    <b>Cerifications</b>&nbsp;
+                    <FaArrowUpRightFromSquare />
+                  </div>
                 </motion.div>
               </Link>
             </div>
 
-            <div className="col-md-6 py-2 px-3">
+            <div className="col-md-6 py-2 px-3" >
               <br />
 
-              <h1 className="skillheader ">
+              <h1
+                className="skillheader "
+                style={{
+                  transform: isInView ? "none" : "translateX(-200px)",
+                  opacity: isInView ? 1 : 0,
+                  transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+                }}
+              >
                 <b>Experience</b>
               </h1>
               <br />
@@ -121,7 +148,9 @@ function MainPageThird() {
                     <li>Migration of abinitio project to Java-spark </li>
                   </ul>
                 </li>
-                <li><br /></li>
+                <li>
+                  <br />
+                </li>
                 <li>
                   <b>
                     {" "}
@@ -131,15 +160,19 @@ function MainPageThird() {
                 <li>
                   <ul style={{ listStyleType: "none" }}>
                     <li>
-                      Worked on Full-Stack development in a BFS project.Seamless UI changes based on backend flag that changed in realtime .
+                      Worked on Full-Stack development in a BFS project.Seamless
+                      UI changes based on backend flag that changed in realtime
+                      .
                     </li>
-                    <li>Implementation of Java-spark code changes based on client needs.</li>
+                    <li>
+                      Implementation of Java-spark code changes based on client
+                      needs.
+                    </li>
                     <li></li>
                   </ul>
                 </li>
               </ul>
               <br />
-              
             </div>
           </div>
         </div>
@@ -149,5 +182,3 @@ function MainPageThird() {
 }
 
 export default MainPageThird;
-
-

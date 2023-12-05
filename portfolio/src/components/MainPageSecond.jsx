@@ -5,22 +5,28 @@ import {
   colorPalette,
   textcolorPalette,
 } from "../staticDataFile";
-// import { useState } from "react";
-import { motion } from "framer-motion";
+import {  useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import {Link} from 'react-router-dom';
 import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 
 function MainPageSecond() {
-  // const [skillState, setSkillState] = useState(skills);
-  // const [toolState , setToolState] = useState(tools);
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
 
   return (
-    <div className="row justify-content-between skills-main">
-      <div className="col-12 mt-3 container ml-4 pl-4"></div>
-      <div className="col-12 mt-3 container">
+    <div className="row justify-content-between skills-main ">
+      
+      <div className="col-12 mt-3 container" >
         <div className="row container">
-          <div className="col-md-4 py-2 px-3">
-            <h2 className="skillheader ">
+          <div className="col-md-4 p-2 px-3">
+            <h2 className="skillheader " ref={ref} style={{
+          transform: isInView ? "none" : "translateX(-200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }}>
               <b>Professional Skills</b>
             </h2>
             <p>
@@ -33,7 +39,7 @@ function MainPageSecond() {
               
               <Link to="projects">
               <motion.div
-              className="btn rounded border-3 border-dark-subtle"
+              className="hover-black-css btn rounded border-3 border-dark-subtle"
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
@@ -46,8 +52,12 @@ function MainPageSecond() {
 
             
           </div>
-          <div className="col-md-8 p-2 ">
-            <h4>
+          <div className="col-md-8 p-2 px-3">
+            <h4 ref={ref} style={{
+          transform: isInView ? "none" : "translateX(-200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }}>
               <b>Languages</b>
             </h4>
 
