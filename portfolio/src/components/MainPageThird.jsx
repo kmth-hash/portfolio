@@ -1,6 +1,5 @@
 import "../stylesheets/homepage.css";
 import { useRef } from "react";
-import { GoDotFill } from "react-icons/go";
 import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
@@ -47,7 +46,7 @@ function MainPageThird() {
               <br />
               <p className="mb-0">2014 - 2015</p>
               <h4 className="fw-medium">
-                <b>SSC Education</b>
+                <b>SSLC Education</b>
               </h4>
               <p className="mb-0">Canara High School</p>
               <p>

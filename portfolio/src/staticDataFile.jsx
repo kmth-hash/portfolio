@@ -175,6 +175,7 @@ export const certList = [
     companyName : "Databricks",
     credentialURL : "https://credentials.databricks.com/0f7ee283-8f40-47da-acc8-2239b9b1ce9b",
     companyLogo : "./src/assets/databricks.svg",
+    bgLogo : "cert-spark" ,
     skillList : ["Apache-Spark", "Bigdata","RDD","SQL"]
   },
   {
@@ -182,6 +183,7 @@ export const certList = [
     companyName : "LinkedIn",
     credentialURL : "https://www.linkedin.com/learning/certificates/e49727a747b6d434cd02b4e814ae6e23af9903d71d2342839d874265db428ff1?trk=backfilled_certificate",
     companyLogo : "./src/assets/linkedin.svg",
+    bgLogo : "cert-graph" ,
     skillList : ["Data Analytics", "Python","Numpy"]
   },
   {
@@ -189,6 +191,7 @@ export const certList = [
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/0bb61222cffe",
     companyLogo : "./src/assets/hackerrank.svg",
+    bgLogo : "cert-py" ,
     skillList : ["Python", "Algorithm"]
   },
   {
@@ -196,6 +199,7 @@ export const certList = [
     companyName : "LinkedIn",
     credentialURL : "https://www.hackerrank.com/certificates/9d66b38bb061",
     companyLogo : "./src/assets/hackerrank.svg",
+    bgLogo : "cert-ps" ,
     skillList : ["Python", "Algorithm"]
   },
   {
@@ -203,6 +207,7 @@ export const certList = [
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/3964fe857353",
     companyLogo : "./src/assets/hackerrank.svg",
+    bgLogo : "cert-java" ,
     skillList : ["Java", "Algorithm"]
   },
   {
@@ -210,6 +215,7 @@ export const certList = [
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/7d6d00cfd6e5",
     companyLogo : "./src/assets/hackerrank.svg",
+    bgLogo : "cert-sql" ,
     skillList : ["SQL", "Algorithm"]
   },
   {
@@ -217,6 +223,7 @@ export const certList = [
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/599cb10cfc70",
     companyLogo : "./src/assets/hackerrank.svg",
+    bgLogo : "cert-css" ,
     skillList : ["CSS", "Algorithm"]
   },
   {
@@ -224,6 +231,7 @@ export const certList = [
     companyName : "HackerRank",
     credentialURL : "https://www.youracclaim.com/badges/6f5ec689-1b9b-4751-b5e4-43348277a49a/public_url",
     companyLogo : "./src/assets/microsoft.svg",
+    bgLogo : "cert-javascript" ,
     skillList : ["Javascript", "HTML"]
   }
   

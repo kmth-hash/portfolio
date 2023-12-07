@@ -6,7 +6,8 @@ import Projects from './components/Projects.jsx';
 import Certifications from './components/Certifications';
 
 function App() {
-  let router = createBrowserRouter([{
+  let router = createBrowserRouter(
+  [{
     path : "/" , 
     element : <Homepage/>, 
     errorElement : <ErrorPage/>
@@ -21,12 +22,13 @@ function App() {
     element : <Certifications />,
     errorElement : <ErrorPage />
   }
-]);
+] , {basename : "/portfolio/"}
+);
   
   return (
     <>
       
-      <RouterProvider router = {router} />
+      <RouterProvider  router = {router} />
     </>
   )
 }

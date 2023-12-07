@@ -4,6 +4,7 @@ import { LiaCertificateSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import {motion} from 'framer-motion';
 
+
 function CertCard({ cert }) {
 
   return (
@@ -13,6 +14,7 @@ function CertCard({ cert }) {
       transition={{ type: "spring", stiffness: 400, damping: 10 }}
       >
       <div className="border p-3 border-2 rounded border-dark-subtle">
+        <div className={`certBgImg ${cert.bgLogo}`} >
         <div className="row">
           <div className="col-10 ">
             <p className="m-0">{cert.companyName}</p>
@@ -26,7 +28,7 @@ function CertCard({ cert }) {
             <motion.div>
             <Link to={cert.credentialURL} target="_blank">
               <h1>
-                <LiaCertificateSolid className="d-none d-md-block m-0" />
+                <LiaCertificateSolid className="d-none d-md-block m-0 rounded shadow " />
               </h1>
             </Link>
             </motion.div>
@@ -44,7 +46,7 @@ function CertCard({ cert }) {
           {cert.skillList.map((s, si) => {
             return (
               <div className="p-1" key={si}>
-                <div className="mr-2 rounded border border-dark-subtle py-1 px-2 ">
+                <div className="mr-2 rounded border border-dark-subtle shadow py-1 px-2 ">
                   {s}
                 </div>
               </div>
@@ -52,7 +54,7 @@ function CertCard({ cert }) {
           })}
         </div>
       </div>
-
+      </div>
       </motion.div>
     </div>
   );

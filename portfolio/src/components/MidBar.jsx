@@ -4,14 +4,17 @@ import { motion } from "framer-motion";
 function MidBar() {
   return (
     <motion.div className="midbar" animate={{
-        scaleX : 0.95 ,
-                  
+        scaleX : [1 , 0.95, 1] ,        
+        
       }}
       transition={{
-        duration : 7 , 
-        ease : "easeInOut" , 
-        repeat : "infinity"
+        duration : 4 , 
+        ease : ["easeInOut"] , 
+        repeat : "Infinity",
+        
       }}
+      
+      
       
       >
       <div className="home-bar text-white"></div>

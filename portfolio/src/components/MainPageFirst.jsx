@@ -26,14 +26,11 @@ function MainPageFirst() {
               .typeString("Dimi...")
               .pauseFor(250)
               .deleteChars(7)
-              .typeString("Prsn")
+              
+              .typeString("Pranav")
               .pauseFor(250)
-              .deleteChars(2)
-              .typeString("anav")
-              .pauseFor(250)
-              .typeString("...")
-              .pauseFor(200)
-              .deleteChars(3)
+              .typeString(" Kamath")
+              .pauseFor(200)              
               .start();
           }}
           options={{
@@ -126,7 +123,7 @@ function MainPageFirst() {
           }}
         >
           <div className="homepage-profile-div">
-            <img src="/profile.png" className="img-fluid"></img>
+            <img src="./src/assets/profile.png" className="img-fluid"></img>
           </div>
         </motion.div>
       </div>
