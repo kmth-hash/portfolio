@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
+import {Link} from 'react-router-dom';
 
 function MainPageFirst() {
   const getRandomPercent = (n) => {
@@ -56,6 +57,7 @@ function MainPageFirst() {
         {/* <div className="btn btn-custom-blue d-flex flex-row text-center"> */}
 
         <div className="d-flex gap-2">
+          <a href="mailto:bpk.san4ya@gmail.com">
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -66,6 +68,10 @@ function MainPageFirst() {
             </h4>
           </motion.div>
 
+          </a>
+
+          <Link to="https://www.linkedin.com/in/pranavkamathb/"
+          target="_blank">
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -75,7 +81,10 @@ function MainPageFirst() {
               <FaLinkedinIn />
             </h4>
           </motion.div>
+          </Link>
 
+          <Link to="https://github.com/kmth-hash"
+          target="_blank">
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -85,6 +94,7 @@ function MainPageFirst() {
               <FaGithub />
             </h4>
           </motion.div>
+          </Link>
         </div>
         {/* </div> */}
         {/* <br />
@@ -134,7 +144,7 @@ function MainPageFirst() {
           </motion.div>
         </div> */}
       </div>
-      <div className="col-md-6 mt-3">
+      <div className="col-md-6 my-4 py-3">
         {/* <div className="btn btn-dark d-flex flex-row col-4 col-md-4 text-center">
           <h5>Random </h5>{" "}
           <motion.div

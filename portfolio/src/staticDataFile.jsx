@@ -128,43 +128,43 @@ export const colorPalette2 = [
 export const projectData = [
   {
     pName : "Bill-It" , 
-    Description : "Webpage to maintain business expenses and client details.",
-    skillList : ["PHP", "MySQL", "HTML", "CSS", "Bootstrap","Javascript"]
-
+    Description : "Webpage to maintain business expenses and client details. Build to run locally to keep a ledger of client details , invoices and companies. Using FPDF packge , users can print invoices as preferred.",
+    skillList : ["PHP", "MySQL", "HTML", "CSS", "Bootstrap","Javascript"] ,
+    projURL : ""
   }, 
   {
     pName : "Split-it" , 
     Description : "Webpage to split personal expenses with buddies.",
-    skillList : ["React.js", "Javascript", "Firebase", "Bootstrap","CI/CD","Heroku","RestAPI"]
+    skillList : ["React.js", "Javascript", "Firebase", "Bootstrap","CI/CD","Heroku","RestAPI"],
+    projURL : ""
 
   },
   {
     pName : "I2R" , 
     Description : "Python Image Processing Engine to analyze images of dishes and maintain nutirtion intake.",
-    skillList : ["Django", "PostgreSQL", "HTML", "CSS", "Python","openCV","YOLOv5"]
+    skillList : ["Django", "PostgreSQL", "HTML", "CSS", "Python","openCV","YOLOv5"],
+    projURL : "https://github.com/kmth-hash/I2R_repo"
 
   },
   {
     pName : "Golden-Shuttle" , 
     Description : "React webpage to maintain student attendance and payment in a shuttle academy.",
-    skillList : ["React.js", "Vite", "Firebase", "CSS", "Bootstrap","Javascript","Heroku","RestAPI"]
+    skillList : ["React.js", "Vite", "Firebase", "CSS", "Bootstrap","Javascript","Heroku","RestAPI"],
+    projURL : ""
 
   },
-  {
-    pName : "Copy-Paste" , 
-    Description : "A simple webpage to copy-paste string online to transfer data between devices.",
-    skillList : ["React.js", "Firebase", "HTML", "CSS", "Bootstrap","Javascript","RestAPI"]
 
-  },
   {
     pName : "HungryBear",
     Description : "Java program to replicate food ordering system and admin-side page to check orders.",
-    skillList : ["Java", "SQL", "Java-FX", "MVC"]
+    skillList : ["Java", "SQL", "Java-FX", "MVC"],
+    projURL : ""
   },
   {
     pName : "Grade-It" , 
     Description : "Python Django webpage tp scrape data and maintain local DB of university marks for staff use.",
-    skillList : ["Django", "PostgreSQL", "HTML","Python","BeatifulSoup","RestAPI"]
+    skillList : ["Django", "PostgreSQL", "HTML","Python","BeatifulSoup","RestAPI"],
+    projURL : ""
 
   },
 ];

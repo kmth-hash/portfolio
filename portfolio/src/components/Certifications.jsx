@@ -4,7 +4,7 @@ import  {certList} from '../staticDataFile.jsx';
 import Footer from "./Footer";
 import "../stylesheets/certifications.css";
 import {  useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import {  useInView } from "framer-motion";
 
 function Certifications() {
   const ref = useRef(null);

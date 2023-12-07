@@ -1,9 +1,12 @@
 import "../stylesheets/header-styles.css";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn, FaGithubAlt, FaCode, FaHome } from "react-icons/fa";
+import { FaGithubAlt, FaCode, FaHome , FaCertificate  } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+
 function Header() {
+ 
+
   return (
     <div className="header-body ">
       <div className="header-list">
@@ -20,15 +23,16 @@ function Header() {
 
         <Link
           className="RRDLink"
-          to="https://www.linkedin.com/in/pranavkamathb/"
-          target="_blank"
+          to="/certifications"
+          // target="_blank"
+          title="Certificates"
         >
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
             <div className="header-icon-div">
-              <FaLinkedinIn />
+              <FaCertificate />
             </div>
           </motion.div>
         </Link>
@@ -37,6 +41,7 @@ function Header() {
           to="https://github.com/kmth-hash"
           target="_blank"
           className="RRDLink"
+          title="Github"
         >
           <motion.div
             whileHover={{ scale: 1.1 }}

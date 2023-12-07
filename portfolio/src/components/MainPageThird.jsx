@@ -14,7 +14,7 @@ function MainPageThird() {
         <div className="col-12 mt-3 container ml-4 pl-4"></div>
         <div className="col-12 mt-3 container">
           <div className="row container" ref={ref}>
-            <div className="col-md-6 py-2 px-3" >
+            <div className="col-md-6 py-2 px-3">
               <h6>BIODATA</h6>
               <h1
                 className="skillheader "
@@ -114,7 +114,7 @@ function MainPageThird() {
               </Link>
             </div>
 
-            <div className="col-md-6 py-2 px-3" >
+            <div className="col-md-6 py-2 px-3">
               <br />
 
               <h1
@@ -132,46 +132,32 @@ function MainPageThird() {
               <h4 className=" fw-medium">
                 <b>LTI-Mindtree</b>
               </h4>
-              <ul style={{ listStyleType: "none" }}>
-                <li>
-                  <b>
-                    {" "}
-                    <GoDotFill /> Senior Data Engineer ( 2022 - Present )
-                  </b>
-                </li>
-                <li>
-                  <ul style={{ listStyleType: "none" }}>
-                    <li>
-                      Handled Java-spark project in Banking-Financial System.
-                    </li>
-                    <li>Increased performance of existing code by 40%.</li>
-                    <li>Migration of abinitio project to Java-spark </li>
-                  </ul>
-                </li>
-                <li>
-                  <br />
-                </li>
-                <li>
-                  <b>
-                    {" "}
-                    <GoDotFill /> Data Engineer ( 2021 - 2022 )
-                  </b>
-                </li>
-                <li>
-                  <ul style={{ listStyleType: "none" }}>
-                    <li>
-                      Worked on Full-Stack development in a BFS project.Seamless
-                      UI changes based on backend flag that changed in realtime
-                      .
-                    </li>
-                    <li>
-                      Implementation of Java-spark code changes based on client
-                      needs.
-                    </li>
-                    <li></li>
-                  </ul>
-                </li>
-              </ul>
+              <p className="mb-0">2022 - Present</p>
+              <b>Senior Data Engineer</b>
+
+              <p className="mb-0">
+                Handled Java-spark project in Banking-Financial System.
+              </p>
+              <p className="mb-0">
+                Increased performance of existing code by 40%.
+              </p>
+              <p className="mb-0">
+                Migration of abinitio project to Java-spark{" "}
+              </p>
+              <br />
+              <p className="mb-0">2021 - 2022</p>
+              <b>Data Engineer</b>
+
+              <p className="mb-0">
+              Worked on Full-Stack development in a BFS project. UI changes based on backend flag that changed in realtime
+              </p>
+              <p className="mb-0">
+              Implementation of Java-spark code changes based on client needs.
+              </p>
+              <p className="mb-0">
+                Migration of abinitio project to Java-spark{" "}
+              </p>
+              
               <br />
             </div>
           </div>

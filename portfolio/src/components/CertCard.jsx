@@ -1,12 +1,11 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import { FaLink } from "react-icons/fa";
 import "../stylesheets/certifications.css";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import {motion} from 'framer-motion';
 
 function CertCard({ cert }) {
+
   return (
     <div className=" col-12 col-md-6 p-2">
       <motion.div 

@@ -17,7 +17,7 @@ function MainPageSecond() {
 
 
   return (
-    <div className="row justify-content-between skills-main ">
+    <div className="row justify-content-between skills-main py-3">
       
       <div className="col-12 mt-3 container" >
         <div className="row container">
@@ -112,6 +112,7 @@ function MainPageSecond() {
           </div>
         </div>
       </div>
+      <div className="py-4 my-3"></div>
     </div>
   );
 }
