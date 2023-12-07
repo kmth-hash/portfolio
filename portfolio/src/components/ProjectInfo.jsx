@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import  { useState, useEffect, useRef } from "react";
 import "../stylesheets/projects.css";
-import { FcRating } from "react-icons/fc";
-import ImgProject from "../assets/project1.png";
+import ImgProject from "../images/project1.png"
 
 import { HiExternalLink } from "react-icons/hi";
 import { useInView, motion } from "framer-motion";

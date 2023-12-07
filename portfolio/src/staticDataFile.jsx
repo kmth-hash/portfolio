@@ -1,3 +1,17 @@
+import databricks from './images/databricks.svg';
+import spark from './images/apacheSpark.svg';
+import css from './images/CSS.svg';
+import graph from './images/graph.svg';
+import hackerrank from './images/hackerrank.svg';
+import java from './images/Java.svg';
+import javascript from './images/javascript.svg';
+import linkedin from './images/linkedin.svg';
+import microsoft from './images/microsoft.svg';
+import ps from './images/ProblemSolving.svg';
+import sql from './images/SQL.svg';
+import py from './images/Python.svg';
+
+
 const skillList = [
   {
     tagLogo: "devicon-apache-plain",
@@ -174,7 +188,7 @@ export const certList = [
     cName : "Databricks Certified Associate Developer",
     companyName : "Databricks",
     credentialURL : "https://credentials.databricks.com/0f7ee283-8f40-47da-acc8-2239b9b1ce9b",
-    companyLogo : "./src/assets/databricks.svg",
+    companyLogo : {databricks},
     bgLogo : "cert-spark" ,
     skillList : ["Apache-Spark", "Bigdata","RDD","SQL"]
   },
@@ -182,7 +196,7 @@ export const certList = [
     cName : "Learning Data Analytics: 1 Foundations",
     companyName : "LinkedIn",
     credentialURL : "https://www.linkedin.com/learning/certificates/e49727a747b6d434cd02b4e814ae6e23af9903d71d2342839d874265db428ff1?trk=backfilled_certificate",
-    companyLogo : "./src/assets/linkedin.svg",
+    companyLogo : {ps},
     bgLogo : "cert-graph" ,
     skillList : ["Data Analytics", "Python","Numpy"]
   },
@@ -190,7 +204,7 @@ export const certList = [
     cName : "Python (Basic)",
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/0bb61222cffe",
-    companyLogo : "./src/assets/hackerrank.svg",
+    companyLogo : {py},
     bgLogo : "cert-py" ,
     skillList : ["Python", "Algorithm"]
   },
@@ -198,7 +212,7 @@ export const certList = [
     cName : "Problem Solving (Basic)",
     companyName : "LinkedIn",
     credentialURL : "https://www.hackerrank.com/certificates/9d66b38bb061",
-    companyLogo : "./src/assets/hackerrank.svg",
+    companyLogo : {hackerrank},
     bgLogo : "cert-ps" ,
     skillList : ["Python", "Algorithm"]
   },
@@ -206,7 +220,7 @@ export const certList = [
     cName : "Java (Basic)",
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/3964fe857353",
-    companyLogo : "./src/assets/hackerrank.svg",
+    companyLogo : {hackerrank} ,
     bgLogo : "cert-java" ,
     skillList : ["Java", "Algorithm"]
   },
@@ -214,7 +228,7 @@ export const certList = [
     cName : "SQL (Basic)",
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/7d6d00cfd6e5",
-    companyLogo : "./src/assets/hackerrank.svg",
+    companyLogo : {hackerrank},
     bgLogo : "cert-sql" ,
     skillList : ["SQL", "Algorithm"]
   },
@@ -222,7 +236,7 @@ export const certList = [
     cName : "CSS (Basic)",
     companyName : "HackerRank",
     credentialURL : "https://www.hackerrank.com/certificates/599cb10cfc70",
-    companyLogo : "./src/assets/hackerrank.svg",
+    companyLogo : {hackerrank},
     bgLogo : "cert-css" ,
     skillList : ["CSS", "Algorithm"]
   },
@@ -230,7 +244,7 @@ export const certList = [
     cName : "MTA: Introduction to JS",
     companyName : "HackerRank",
     credentialURL : "https://www.youracclaim.com/badges/6f5ec689-1b9b-4751-b5e4-43348277a49a/public_url",
-    companyLogo : "./src/assets/microsoft.svg",
+    companyLogo : {microsoft},
     bgLogo : "cert-javascript" ,
     skillList : ["Javascript", "HTML"]
   }

@@ -46,31 +46,32 @@
   }
 
   .cert-py::before{
-    background-image: url('../assets/Python.svg');
+    background-image: url('../images/Python.svg');
   }
   .cert-css::before{
-    background-image: url('../assets/CSS.svg');
+    background-image: url('../images/CSS.svg');
   }
   .cert-sql::before{
-    background-image: url('../assets/SQL.svg');
+    background-image: url('../images/SQL.svg');
   }
   .cert-java::before{
-    background-image: url('../assets/Java.svg');
+    background-image: url('../images/Java.svg');
   }
   .cert-ps::before{
-    background-image: url('../assets/ProblemSolving.svg');
+    background-image: url('../images/ProblemSolving.svg');
   }
   .cert-spark::before{
-    background-image: url('../assets/apacheSpark.svg');
+    background-image: url('../images/apacheSpark.svg');
   }
   .cert-javascript::before{
-    background-image: url('../assets/javascript.svg');
+    background-image: url('../images/javascript.svg');
   }
   .cert-graph::before{
-    background-image: url('../assets/graph.svg');
+    background-image: url('../images/graph.svg');
   }
 
  .box-shadow-cust{
     box-shadow:  0px 0px 10px 2px rgba(0, 0, 0, 0.371);
     border: 1px rgba(0, 0, 0, 0.201) solid;
  }
+ 

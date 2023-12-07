@@ -3,10 +3,10 @@ import "../stylesheets/certifications.css";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import {motion} from 'framer-motion';
-
+import hackerrank from "../images/hackerrank.svg";
 
 function CertCard({ cert }) {
-
+  // console.log(cert.companyLogo[Object.keys(cert.companyLogo)[0]]);
   return (
     <div className=" col-12 col-md-6 p-2">
       <motion.div 
@@ -37,7 +37,7 @@ function CertCard({ cert }) {
         <div className="row">
           <div className="col p-2 mx-2">
             <div className="cert-square rounded-1 ">
-              <img src={cert.companyLogo} />
+              <img src={cert.companyLogo[Object.keys(cert.companyLogo)[0]]} />
             </div>
           </div>
         </div>

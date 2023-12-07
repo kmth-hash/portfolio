@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import {Link} from 'react-router-dom';
-import ImgProfile from "../assets/profile_illustration2.png";
+import ImgProfile from "../images/profile_illustration2.png";
 
 function MainPageFirst() {
   const getRandomPercent = (n) => {
