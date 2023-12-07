@@ -2,6 +2,8 @@
 import  { useState, useEffect, useRef } from "react";
 import "../stylesheets/projects.css";
 import { FcRating } from "react-icons/fc";
+import ImgProject from "../assets/project1.png";
+
 import { HiExternalLink } from "react-icons/hi";
 import { useInView, motion } from "framer-motion";
 import {Link} from 'react-router-dom';
@@ -56,7 +58,7 @@ function ProjectInfo({ info, side = "left" }) {
           >
             <div>
               <img
-                src="./src/assets/project1.png"
+                src={ImgProject}
                 className="d-block mx-lg-auto img-fluid"
                 alt="Project"
                 width="700"

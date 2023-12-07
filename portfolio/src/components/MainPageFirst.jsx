@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import {Link} from 'react-router-dom';
+import ImgProfile from "../assets/profile_illustration2.png";
 
 function MainPageFirst() {
   const getRandomPercent = (n) => {
@@ -123,7 +124,7 @@ function MainPageFirst() {
           }}
         >
           <div className="homepage-profile-div">
-            <img src="./src/assets/profile_illustration2.png" className="img-fluid"></img>
+            <img src={ImgProfile} className="img-fluid"></img>
           </div>
         </motion.div>
       </div>
