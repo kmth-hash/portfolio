@@ -1,0 +1,148 @@
+.typewritercss {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1f6e8c !important;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background: #1f6e8c;
+  transform-origin: 0%;
+}
+
+.bg-box {
+  width: 20rem;
+  height: 20rem;
+  background: #f5e8c7;
+}
+
+.homepage-body {
+}
+
+.font-weight-900 {
+  font-weight: 900;
+  font-family: "Figtree", sans-serif;
+}
+
+.homepage {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0) !important;
+  padding: 1rem 0;
+  margin: 0.5rem 0;
+}
+
+.btn-custom-blue {
+  background-color: #1f6e8c !important;
+  color: #ffffff !important;
+}
+
+.home-bar {
+  height: 3vh;
+  background-color: #f5e8c7;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  z-index: 2;
+  animation: bar-anim 4s infinite;
+}
+@keyframes bar-anim {
+  0% {background-color: #f5e8c7fd;}
+  25%{background-color:#f5e8c7e8;}
+  50%{background-color:#f5e8c7d7;}
+  75%{background-color:#f5e8c7c6;}
+  100% {background-color:#f5e8c7b5;}
+}
+
+a {
+  text-decoration: none;
+}
+
+.skills-main {
+  font-family: "Figtree", sans-serif;
+}
+.skillheader {
+  font-family: "Figtree", sans-serif;
+}
+
+.skill-grid {
+  justify-content: flex-start !important;
+}
+
+.midbar {
+  margin: 5rem 0;
+}
+
+.cust-btn-css {
+  outline: 0px;
+  font-size: 1em;
+  font-weight: 600;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 20px 34px;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -6px 0px 0px inset,
+    #f5e8c7 1px 1px 0px 0px, #f5e8c7 2px 2px 0px 0px,
+    #f5e8c7 3px 3px 0px 0px, #f5e8c7 4px 4px 0px 0px,
+    #f5e8c7 5px 5px 0px 0px, #f5e8c7 6px 6px 0px 0px,
+    #f5e8c7 7px 7px 0px 0px, #f5e8c7 8px 8px 0px 0px;
+}
+
+.cust-btn-css:hover {
+  color: rgb(68, 68, 68);
+  background: rgb(255, 255, 255);
+}
+
+.cust-btn-css:active {
+  color: rgb(34, 34, 34);
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 0px 0px inset,
+    #f5e8c7 1px 1px 0px 0px, #f5e8c7 2px 2px 0px 0px,
+    #f5e8c7 3px 3px 0px 0px, #f5e8c7 4px 4px 0px 0px,
+    #f5e8c7 5px 5px 0px 0px;
+}
+
+.cust-btn-css:focus {
+  color: rgb(34, 34, 34);
+}
+
+.education-main{
+  font-family: "Figtree", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+.footer {
+  background: #1A1E25;
+  color: #868c96;
+}
+
+.footer p {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer img {
+  width: 44px;
+}
+
+.hover-white-css:hover, .hover-white-css:focus{
+  background-color: #f5e8c779 !important;
+  color: #1A1E25 !important;
+}
+
+
+.hover-black-css:hover, .hover-black-css:focus{
+  background-color: #1A1E25 !important;
+  color: #ffffff !important;
+}
+
+.h-75v{
+  height: 70vh !important;
+}
