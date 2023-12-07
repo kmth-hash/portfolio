@@ -1,6 +1,3 @@
 node_modules/*
-*.png
-*.jpg
-*.PNG
 
 MainPageTest.jsx

@@ -123,7 +123,7 @@ function MainPageFirst() {
           }}
         >
           <div className="homepage-profile-div">
-            <img src="./src/assets/profile.png" className="img-fluid"></img>
+            <img src="./src/assets/profile_illustration2.png" className="img-fluid"></img>
           </div>
         </motion.div>
       </div>
