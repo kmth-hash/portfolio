@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import  { useState, useEffect, useRef } from "react";
 import "../stylesheets/projects.css";
-import ImgProject from "../images/project1.png"
 
 import { HiExternalLink } from "react-icons/hi";
 import { useInView, motion } from "framer-motion";
@@ -57,7 +56,7 @@ function ProjectInfo({ info, side = "left" }) {
           >
             <div>
               <img
-                src={ImgProject}
+                src={info.projImg}
                 className="d-block mx-lg-auto img-fluid"
                 alt="Project"
                 width="700"

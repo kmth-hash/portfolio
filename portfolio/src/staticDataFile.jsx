@@ -1,16 +1,21 @@
 import databricks from './images/databricks.svg';
-import spark from './images/apacheSpark.svg';
-import css from './images/CSS.svg';
-import graph from './images/graph.svg';
+// import spark from './images/apacheSpark.svg';
+// import css from './images/CSS.svg';
+// import graph from './images/graph.svg';
 import hackerrank from './images/hackerrank.svg';
-import java from './images/Java.svg';
-import javascript from './images/javascript.svg';
-import linkedin from './images/linkedin.svg';
+// import java from './images/Java.svg';
+// import javascript from './images/javascript.svg';
+// import linkedin from './images/linkedin.svg';
 import microsoft from './images/microsoft.svg';
 import ps from './images/ProblemSolving.svg';
-import sql from './images/SQL.svg';
+// import sql from './images/SQL.svg';
 import py from './images/Python.svg';
-
+import BillIt from './images/Bill-It.png';
+import GS from './images/GoldenShuttle.png';
+import GradeIt from './images/GradeIt2.png';
+import SplitIt from './images/Split-It.png';
+import Project from './images/project1.png';
+import HungryBear from './images/Hungrybear.png';
 
 const skillList = [
   {
@@ -144,41 +149,46 @@ export const projectData = [
     pName : "Bill-It" , 
     Description : "Webpage to maintain business expenses and client details. Build to run locally to keep a ledger of client details , invoices and companies. Using FPDF packge , users can print invoices as preferred.",
     skillList : ["PHP", "MySQL", "HTML", "CSS", "Bootstrap","Javascript"] ,
-    projURL : ""
+    projURL : "" , 
+    projImg : BillIt
   }, 
   {
     pName : "Split-it" , 
-    Description : "Webpage to split personal expenses with buddies.",
+    Description : "Webpage to split personal expenses with buddies. Manage bills and expenses with users and monitor the monthly/weekly expenses.",
     skillList : ["React.js", "Javascript", "Firebase", "Bootstrap","CI/CD","Heroku","RestAPI"],
-    projURL : ""
+    projURL : "",
+    projImg : SplitIt
 
   },
   {
     pName : "I2R" , 
-    Description : "Python Image Processing Engine to analyze images of dishes and maintain nutirtion intake.",
+    Description : "Python Image Processing Engine to analyze images of vegetables, and suggest recipes based on the detected veggies. Feature to track user nutrition based on recipe.",
     skillList : ["Django", "PostgreSQL", "HTML", "CSS", "Python","openCV","YOLOv5"],
-    projURL : "https://github.com/kmth-hash/I2R_repo"
+    projURL : "https://github.com/kmth-hash/I2R_repo",
+    projImg : Project
 
   },
   {
     pName : "Golden-Shuttle" , 
-    Description : "React webpage to maintain student attendance and payment in a shuttle academy.",
+    Description : "React webpage to maintain student attendance and payment in a sports academy. Track field, user and attendance details daily and maintain records of payments.",
     skillList : ["React.js", "Vite", "Firebase", "CSS", "Bootstrap","Javascript","Heroku","RestAPI"],
-    projURL : ""
-
+    projURL : "",
+    projImg : GS 
   },
 
   {
     pName : "HungryBear",
-    Description : "Java program to replicate food ordering system and admin-side page to check orders.",
+    Description : "Java program to replicate food ordering system and admin-side page to check orders. Simple program to track to create invoice and maintain orders.",
     skillList : ["Java", "SQL", "Java-FX", "MVC"],
-    projURL : ""
+    projURL : "",
+    projImg : HungryBear
   },
   {
     pName : "Grade-It" , 
-    Description : "Python Django webpage tp scrape data and maintain local DB of university marks for staff use.",
+    Description : "Python Django webpage tp scrape data and maintain local DB of university marks for staff use. BeautifulSoup package to scrape marks from webpages or manually add subject marks.",
     skillList : ["Django", "PostgreSQL", "HTML","Python","BeatifulSoup","RestAPI"],
-    projURL : ""
+    projURL : "",
+    projImg : GradeIt 
 
   },
 ];
