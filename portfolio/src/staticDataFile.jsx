@@ -6,6 +6,8 @@ import hackerrank from './images/hackerrank.svg';
 // import java from './images/Java.svg';
 // import javascript from './images/javascript.svg';
 // import linkedin from './images/linkedin.svg';
+import aws from './images/aws.svg';
+import mdb from './images/mongodb.svg';
 import microsoft from './images/microsoft.svg';
 import ps from './images/ProblemSolving.svg';
 // import sql from './images/SQL.svg';
@@ -14,13 +16,26 @@ import BillIt from './images/Bill-It.png';
 import GS from './images/GoldenShuttle.png';
 import GradeIt from './images/GradeIt2.png';
 import SplitIt from './images/Split-It.png';
-import Project from './images/project1.png';
+// import Project from './images/project1.png';
 import HungryBear from './images/Hungrybear.png';
+import DefaultBG from './images/code-bg.jpg';
 
 const skillList = [
   {
     tagLogo: "devicon-apache-plain",
     tagName: "Apache Spark",
+  },
+  {
+    tagLogo: "devicon-apache-plain-wordmark",
+    tagName: "Apache Airflow",
+  },
+  {
+    tagLogo: "devicon-amazonwebservices-plain-wordmark",
+    tagName: "AWS",
+  },
+  {
+    tagLogo: "devicon-amazonwebservices-plain-wordmark",
+    tagName: "AWS Lambda",
   },
   {
     tagLogo: "devicon-bootstrap-plain",
@@ -39,6 +54,10 @@ const skillList = [
     tagName: "Django",
   },
   {
+    tagLogo: "devicon-dynamodb-plain",
+    tagName: "DynamoDB",
+  },
+  {
     tagLogo: "devicon-firebase-plain",
     tagName: "Firebase",
   },
@@ -46,6 +65,10 @@ const skillList = [
     tagLogo: "devicon-html5-plain",
     tagName: "HTML",
   },  
+  {
+    tagLogo: "devicon-amazonwebservices-plain-wordmark",
+    tagName: "IAM",
+  },
   {
     tagLogo: "devicon-java-plain",
     tagName: "Java",
@@ -153,6 +176,13 @@ export const projectData = [
     projImg : BillIt
   }, 
   {
+    pName : "superBatchProcessor" , 
+    Description : "Spark process to generate country-wise data of covid affected patients which is automated using airflow and loaded into s3 bucket and also loaded into dynamodb.",
+    skillList : ["Spark", "Lambda", "AWS", "S3", "DynamoDB","Python"] ,
+    projURL : "https://github.com/kmth-hash/superBatchProcessor" , 
+    projImg : DefaultBG
+  },
+  {
     pName : "Split-it" , 
     Description : "Webpage to split personal expenses with buddies. Manage bills and expenses with users and monitor the monthly/weekly expenses.",
     skillList : ["React.js", "Javascript", "Firebase", "Bootstrap","CI/CD","Heroku","RestAPI"],
@@ -165,7 +195,7 @@ export const projectData = [
     Description : "Python Image Processing Engine to analyze images of vegetables, and suggest recipes based on the detected veggies. Feature to track user nutrition based on recipe.",
     skillList : ["Django", "PostgreSQL", "HTML", "CSS", "Python","openCV","YOLOv5"],
     projURL : "https://github.com/kmth-hash/I2R_repo",
-    projImg : Project
+    projImg : DefaultBG
 
   },
   {
@@ -201,6 +231,22 @@ export const certList = [
     companyLogo : {databricks},
     bgLogo : "cert-spark" ,
     skillList : ["Apache-Spark", "Bigdata","RDD","SQL"]
+  },
+  {
+    cName : "AWS Partner : Technical Accredited",
+    companyName : "AWS",
+    credentialURL : "https://www.credly.com/badges/56a76569-6ac1-4fe3-9940-bbe259e40fbc",
+    companyLogo : {aws},
+    bgLogo : "cert-aws" ,
+    skillList : ["Lambda", "DynamoDB","IAM","S3"]
+  },
+  {
+    cName : "SI Certified Associate : MongoDB",
+    companyName : "MongoDB",
+    credentialURL : "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/4bdcfe69-28cd-46d5-9888-f1b62b89c58d-pranav-kamath-42d1c587-552b-40c6-9aa5-896286e6a11e-certificate.pdf",
+    companyLogo : {mdb},
+    bgLogo : "cert-mongodb" ,
+    skillList : ["Lambda", "DynamoDB","IAM","S3"]
   },
   {
     cName : "Learning Data Analytics: 1 Foundations",

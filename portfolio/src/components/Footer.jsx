@@ -13,7 +13,7 @@ function Footer() {
     <footer className="border-top">
       <div className="col-12 pt-3 pb-2 mb-2 d-flex align-content-center justify-content-between text-black">
         <p></p>
-        <p>Designed By <b>kmth-hash</b> | <b>Portfolio</b>@v1.0.0</p>
+        <p>Designed By <b>kmth-hash</b> | <b>Portfolio</b>@v1.1.0</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
